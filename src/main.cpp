@@ -1,10 +1,17 @@
+#include "../include/Cafeteria.hpp"
 #include <iostream>
-#include "../include/empleado.hpp"
+
 
 int main () {
-  empleado empleado1;
-
   
+ Cafeteria cafeteriaDB("MYCafeteria","MIdireccion");
+
+
+ cafeteriaDB.mostrarResumen();
+ 
+
+
+
 
 
 
